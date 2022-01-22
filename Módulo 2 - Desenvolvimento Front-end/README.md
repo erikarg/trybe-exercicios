@@ -1,4 +1,4 @@
-## **Progresso do Módulo** 
+## **Progresso do Módulo** :rocket:
 
 [  ] Bloco 10: Introdução à React 
 
