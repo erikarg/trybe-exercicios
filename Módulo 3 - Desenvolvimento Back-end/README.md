@@ -1,5 +1,5 @@
 ### **Progresso do módulo** 🚀
-
+-------------------------------
 
 [ ] Bloco 19: Docker: Utilizando Containers
 
