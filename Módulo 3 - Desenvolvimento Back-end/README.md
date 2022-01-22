@@ -1,5 +1,6 @@
 ### **Progresso do módulo** 🚀
 
+
 [ ] Bloco 19: Docker: Utilizando Containers
 
 [ ] Bloco 20: Introdução à SQL
