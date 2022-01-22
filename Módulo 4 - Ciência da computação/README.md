@@ -1,4 +1,5 @@
 ### **Progresso do módulo** 🚀
+------------------------------------------
 
 [ ] Bloco 33: Introdução à Python
 
