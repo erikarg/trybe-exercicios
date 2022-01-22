@@ -1,4 +1,4 @@
-## **Progresso do Módulo** 
+## Progresso do Módulo
 
 [X] Bloco 1 - Unix & Shell – :heavy_check_mark:
 
