@@ -4,16 +4,16 @@
 
 [X] Bloco 2 - Git, Github e Internet - :heavy_check_mark:
 
-[ ] Bloco 3 - Introdução à HTML e CSS
+[  ] Bloco 3 - Introdução à HTML e CSS
 
-[ ] Bloco 4 - Introdução à Javascript e Lógica de Programação
+[  ] Bloco 4 - Introdução à Javascript e Lógica de Programação
 
-[ ] Bloco 5 - Javascript: DOM, Eventos e Web Storage
+[  ] Bloco 5 - Javascript: DOM, Eventos e Web Storage
 
-[ ] Bloco 6 - HTML e CSS: Forms, Flexbox e Responsivo
+[  ] Bloco 6 - HTML e CSS: Forms, Flexbox e Responsivo
 
-[ ] Bloco 7 - Introdução à Javascript ES6 e Testes Unitários
+[  ] Bloco 7 - Introdução à Javascript ES6 e Testes Unitários
 
-[ ] Bloco 8 - Higher Order Functions do Javascript ES6
+[  ] Bloco 8 - Higher Order Functions do Javascript ES6
 
-[ ] Bloco 9 - JavaScript e Testes Assíncronos
+[  ] Bloco 9 - JavaScript e Testes Assíncronos
