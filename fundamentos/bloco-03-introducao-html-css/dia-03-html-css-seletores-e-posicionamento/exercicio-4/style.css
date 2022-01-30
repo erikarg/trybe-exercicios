@@ -1,0 +1,35 @@
+<style>
+
+div:hover {
+    border: 3px solid violet;
+}
+
+div:first-of-type {
+    color: blue;
+    text-decoration: line-through;
+}
+
+div:nth-of-type(2) {
+    color: green;
+    text-decoration: underline;
+}
+
+div:nth-of-type(3) {
+    color: goldenrod;
+    text-decoration: underline wavy gray;
+    font-size: 38px;
+}
+
+div:nth-of-type(4) {
+    color: red;
+    text-decoration: overline;
+}
+
+div:last-of-type{
+    color: cyan
+    text-decoration: brown;
+}
+
+div:nth-of-type(2n+1){
+    font-style: italic;
+}
