@@ -15,4 +15,8 @@ for (let object in info) {
 
 for (let keys in info) {
     console.log(keys)
+};
+
+for (let content in info) {
+    console.log(info[content]);
 }
