@@ -7,8 +7,12 @@ let info = {
 
 for (let value in info) {
     console.log('Bem-vinda, ' + info.personagem)
-}
+};
 
 for (let object in info) {
     console.log(object+':', info[object]+';')
+};
+
+for (let keys in info) {
+    console.log(keys)
 }
