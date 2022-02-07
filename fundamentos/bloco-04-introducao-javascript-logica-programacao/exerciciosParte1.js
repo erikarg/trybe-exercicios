@@ -19,4 +19,15 @@ for (let keys in info) {
 
 for (let content in info) {
     console.log(info[content]);
-}
+};
+
+let info2 = {
+    personagem: 'Tio Patinhas',
+    origem: 'Christmas on Bear Mountain, Dells Four Color Comics #178',
+    nota: 'O último MacPatinhas',
+    recorrente: 'Sim'
+  };
+
+for (let juncao in info, info2) {
+    console.log(info[juncao]+ ' e ' + info2[juncao])
+};
