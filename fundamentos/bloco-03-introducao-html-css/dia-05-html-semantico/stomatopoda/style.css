@@ -1,4 +1,71 @@
-.h1 {
+header {
     font-family: sans-serif;
     text-align: center;
+}
+
+footer {
+    font-family: sans-serif;
+    display: block;
+    position: relative;
+    text-align: center;
+    font-size: 12px;
+}
+
+body {
+    font-family: sans-serif;
+    background: #0C4767;
+    color: white;
+}
+
+nav {
+    line-height: 1.5;
+    text-align: right;
+}
+
+p {
+    text-align: justify;
+    display: inline;
+    position: absolute;
+    margin-left: 40px;
+    line-height: 2.7;
+    margin-right: 40px;
+}
+
+img {
+    display: inline-block;
+    border: 2px solid white;
+}
+
+h2 {
+    text-align: center;
+    line-height: 1.5;
+}
+
+h3 {
+    margin-left: 160px;
+}
+
+aside {
+    margin-top: 2px;
+    margin-left: 180px;
+    font-size: 13px;
+}
+
+a {
+    color: white;
+}
+
+table {
+    border: 1px solid white;
+    table-layout: fixed;
+    display: inline-block;
+    position: sticky;
+    margin-left: 600px;
+    width: 537px;
+}
+
+th, td {
+    text-align: center;
+    border: 1px solid white;
+    line-height: 1.5;
 }
