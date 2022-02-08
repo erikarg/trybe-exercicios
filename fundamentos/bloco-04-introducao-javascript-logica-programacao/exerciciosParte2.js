@@ -23,3 +23,17 @@ function verificaMaiorIndice () {
     return indice;
 }
 console.log(verificaMaiorIndice(array))
+
+
+let array2 = [2, 4, 6, 7, 10, 0, -3];
+function verificaMenorIndice (numeros) {
+    let menor = 0;
+    for (let indice2 in numeros) {
+        if (numeros[menor] > numeros[indice2]) {
+            menor = indice2;
+        }
+    }
+    return menor;
+}
+console.log(verificaMenorIndice(array2))
+
