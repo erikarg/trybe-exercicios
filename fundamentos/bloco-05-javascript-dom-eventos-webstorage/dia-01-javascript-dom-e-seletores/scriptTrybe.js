@@ -1,14 +1,15 @@
-let id1 = document.getElementById('header-container');
-id1.style.backgroundColor = '#2fc18c';
+document.getElementById('header-container').style.backgroundColor = "#2fc18c"
 
-let class1 = document.getElementsByClassName('emergency-tasks');
-class1.style.backgroundColor = '#ffbec7';
+document.getElementsByClassName('emergency-tasks')[0].style.backgroundColor = "#fb9084"
 
-let id2 = document.getElementById('footer-container');
-id2.style.backgroundColor = '#023031';
+document.querySelector('.emergency-tasks h3.primeiroItem').style.backgroundColor = "#c61aff"
 
-let class2 = document.getElementsByClassName('standard-screenshot');
+document.querySelector('.emergency-tasks h3.segundoItem').style.backgroundColor = "#c61aff"
 
-document.getElementById('header-container').style.backgroundColor = "#2fc18c";
+document.getElementsByClassName('no-emergency-tasks')[0].style.backgroundColor = "#ffff66"
 
-let class3 = document.getElementsByClassName('emergency-tasks'); 
+document.querySelector('.no-emergency-tasks h3.firstItem').style.backgroundColor = "#000000"
+
+document.querySelector('.no-emergency-tasks h3.secondItem').style.backgroundColor = "#000000"
+
+document.getElementById('footer-container').style.backgroundColor = "#023031"
