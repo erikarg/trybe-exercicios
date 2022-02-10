@@ -10,3 +10,10 @@ primeiroFilhoDoFilho.appendChild(teste3);
 
 document.getElementsByName('teste3');
 
+let Remocao = document.querySelectorAll('paiDoPai');
+for (let index = 0; index < Remocao; index += 1); {
+    let element = Remocao[index];
+if (element.innerHTML.includes('primeiroFilho', 'segundoEUltimoFilhoDoFilho', 'terceiroFilho', 'quartoEUltimoFilho')) {
+    paiDoPai.removeChild(element);
+}
+}
