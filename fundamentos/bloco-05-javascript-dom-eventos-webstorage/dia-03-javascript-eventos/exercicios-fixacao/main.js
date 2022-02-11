@@ -42,10 +42,44 @@ function alteraTexto() {
 
 // 4. Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
 // redirecione para alguma página;
+
+const clicando = document.getElementsByTagName('h3')[0];
+
+clicando.addEventListener("dblclick", redirecionaPagina);
+
+function redirecionaPagina() {
+
+    var y = document.getElementsByTagName('h3')[0];
+    location.replace("https://www.betrybe.com");
+
+}
+
 // 4.1. Que tal redirecionar para seu portfólio?
 
+
+clicando.addEventListener("dblclick", redirecionaPagina1);
+
+function redirecionaPagina1() {
+
+    var y = document.getElementsByTagName('h3')[0];
+    location.replace("https://github.com/erikarg");
+
+}
 // 5. Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 // a cor do mesmo;
+
+clicando.addEventListener("mouseover", mouseOver);
+clicando.addEventListener("mouseout", mouseOut);
+
+function mouseOver() {
+
+    clicando.style.color = "yellow";
+}
+
+function mouseOut() {
+
+    clicando.style.color = "white";
+}
 
 // Segue abaixo um exemplo do uso de event.target:
 
