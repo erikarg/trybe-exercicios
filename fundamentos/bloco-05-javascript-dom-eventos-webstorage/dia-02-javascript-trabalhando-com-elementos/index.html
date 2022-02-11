@@ -19,7 +19,7 @@
       }
 
       .main-content .center-content {
-        background-color: red;
+        background-color: green;
         width: 50%;
         margin-left: auto;
         margin-right: auto;
@@ -47,7 +47,7 @@
         background-color: blue;
         width: 60%;
         margin-left: auto;
-        margin-right: 0;
+        margin-right: auto;
       }
 
       .main-content .description {
@@ -132,6 +132,26 @@
      var main = document.body;
      var tagH3um = document.createElement('h3');
      main.appendChild(tagH3um);
+
+     var main = document.body;
+     var tagH3dois = document.createElement('h3');
+     main.appendChild(tagH3dois);
+
+     var main = document.body;
+     var tagH3tres = document.createElement('h3');
+     main.appendChild(tagH3tres);
+
+     tagH1.className = "title";
+
+     tagH3um.className = "description";
+     tagH3dois.className = "description";
+     tagH3tres.className = "description";
+
+     main.removeChild(tagSection2);
+    
+     var listaNaoOrdenada = document.getElementsByTagName('ul')[0];
+     var itens = listaNaoOrdenada.getElementsByTagName('li');
+     listaNaoOrdenada.removeChild(itens[2]);
 
     </script>
   </body>
