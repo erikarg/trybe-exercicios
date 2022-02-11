@@ -53,6 +53,14 @@ return maiorPalavra;
 console.log(verificaMaisCaracteres(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
 
 // Exercício 5
+let array3 = [2, 3, 2, 5, 8, 2, 3];
+function inteiroQueMaisSeRepete () {
+    for (var i = 0; i <= array3.length; i += 1) {
+        if ((array3[i] != 0 ))
+          return i;
+    }
+}
+console.log(inteiroQueMaisSeRepete());
 
 // Exercício 6
 
