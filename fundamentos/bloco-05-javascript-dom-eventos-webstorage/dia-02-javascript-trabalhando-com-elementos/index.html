@@ -57,9 +57,10 @@
   </head>
   <body>
     <script>
-     var body = document.body;
+     var body = document.getElementsByTagName('body')[0];
      var tagH1 = document.createElement('h1');
      var texto = document.createTextNode("Exercícios 5.2 - JavaScript DOM");
+     var filho = document.body.appendChild(tagH1);
      tagH1.appendChild(texto);
      body.appendChild(tagH1);
 
@@ -71,63 +72,64 @@
      var main = document.body;
      var tagSection = document.createElement('section');
      tagSection.className = "center-content";
-     main.appendChild(tagSection);
+     tagMain.appendChild(tagSection);
 
      var section = document.body;
      var tagP = document.createElement('p');
      var texto = document.createTextNode("Colocando algum texto conforme orientado.");
      tagP.appendChild(texto);
-     section.appendChild(tagP);
+     tagMain.appendChild(tagP);
 
      var main = document.body;
      var tagSection2 = document.createElement('section');
      tagSection2.className = "left-content";
-     main.appendChild(tagSection2);
+     tagMain.appendChild(tagSection2);
 
      var main = document.body;
      var tagSection3 = document.createElement('section');
      tagSection3.className = "right-content";
-     main.appendChild(tagSection3);
+     tagMain.appendChild(tagSection3);
     
      var section = document.body;
      var imagemSrc = document.createElement('section');
      var imagemSrc = document.createElement("img");
      imagemSrc.src = 'https://picsum.photos/200';
      imagemSrc.className = "small-image";
-     section.appendChild(imagemSrc);
+     tagSection2.appendChild(imagemSrc);
 
      var section = document.body;
      var listaNaoOrdenada = document.createElement('section');
      var listaNaoOrdenada = document.createElement('li');
      listaNaoOrdenada.innerHTML = 'Um';
-     section.appendChild(listaNaoOrdenada);
+     tagSection3.appendChild(listaNaoOrdenada);
      var listaNaoOrdenada = document.createElement('li');
      listaNaoOrdenada.innerHTML = 'Dois';
-     section.appendChild(listaNaoOrdenada);
+     tagSection3.appendChild(listaNaoOrdenada);
      var listaNaoOrdenada = document.createElement('li');
      listaNaoOrdenada.innerHTML = 'Três';
-     section.appendChild(listaNaoOrdenada);
+     tagSection3.appendChild(listaNaoOrdenada);
      var listaNaoOrdenada = document.createElement('li');
      listaNaoOrdenada.innerHTML = 'Quatro';
-     section.appendChild(listaNaoOrdenada);
+     tagSection3.appendChild(listaNaoOrdenada);
      var listaNaoOrdenada = document.createElement('li');
      listaNaoOrdenada.innerHTML = 'Cinco';
-     section.appendChild(listaNaoOrdenada);
+     tagSection3.appendChild(listaNaoOrdenada);
      var listaNaoOrdenada = document.createElement('li');
      listaNaoOrdenada.innerHTML = 'Seis';
-     section.appendChild(listaNaoOrdenada);
+     tagSection3.appendChild(listaNaoOrdenada);
      var listaNaoOrdenada = document.createElement('li');
      listaNaoOrdenada.innerHTML = 'Sete';
-     section.appendChild(listaNaoOrdenada);
+     tagSection3.appendChild(listaNaoOrdenada);
      var listaNaoOrdenada = document.createElement('li');
      listaNaoOrdenada.innerHTML = 'Oito';
-     section.appendChild(listaNaoOrdenada);
+     tagSection3.appendChild(listaNaoOrdenada);
      var listaNaoOrdenada = document.createElement('li');
      listaNaoOrdenada.innerHTML = 'Nove';
-     section.appendChild(listaNaoOrdenada);
+     tagSection3.appendChild(listaNaoOrdenada);
      var listaNaoOrdenada = document.createElement('li');
      listaNaoOrdenada.innerHTML = 'Dez';
-     section.appendChild(listaNaoOrdenada);
+     tagSection3.appendChild(listaNaoOrdenada);
+   
 
      var main = document.body;
      var tagH3um = document.createElement('h3');
@@ -147,12 +149,12 @@
      tagH3dois.className = "description";
      tagH3tres.className = "description";
 
-     main.removeChild(tagSection2);
+     tagMain.removeChild(tagSection2);
     
-     var listaNaoOrdenada = document.getElementsByTagName('ul')[0];
-     var itens = listaNaoOrdenada.getElementsByTagName('li');
-     listaNaoOrdenada.removeChild(itens[2]);
+     tagMain.style.backgroundColor = "green";
 
+     tagSection3.style.marginRight = "auto";
+    
     </script>
   </body>
 </html>
