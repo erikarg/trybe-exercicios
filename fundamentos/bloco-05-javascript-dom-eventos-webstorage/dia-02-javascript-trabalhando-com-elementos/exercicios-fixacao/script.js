@@ -17,3 +17,4 @@ if (element.innerHTML.includes('primeiroFilho', 'segundoEUltimoFilhoDoFilho', 't
     paiDoPai.removeChild(element);
 }
 }
+
