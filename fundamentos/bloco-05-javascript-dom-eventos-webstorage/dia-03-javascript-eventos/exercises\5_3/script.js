@@ -34,8 +34,13 @@ function createDaysOfTheWeek() {
     document.getElementsByClassName('day')[5].classList.add('friday');
     document.getElementsByClassName('day')[12].classList.add('friday');
     document.getElementsByClassName('day')[19].classList.add('friday');  
-    document.getElementsByClassName('day')[26].classList.add('friday');
-    
+    document.getElementsByClassName('day')[26].classList.add('friday'); 
   };
   
   createDaysOfTheMonth();
+
+  function createHolidayButton(Feriados) {
+
+  }
+
+  
