@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: green;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+     var body = document.getElementsByTagName('body')[0];
+     var tagH1 = document.createElement('h1');
+     var texto = document.createTextNode("Exercícios 5.2 - JavaScript DOM");
+     var filho = document.body.appendChild(tagH1);
+     tagH1.appendChild(texto);
+     body.appendChild(tagH1);
+
+     var body = document.body;
+     var tagMain = document.createElement('main');
+     tagMain.className = "main-content";
+     body.appendChild(tagMain);
+
+     var main = document.body;
+     var tagSection = document.createElement('section');
+     tagSection.className = "center-content";
+     tagMain.appendChild(tagSection);
+
+     var section = document.body;
+     var tagP = document.createElement('p');
+     var texto = document.createTextNode("Colocando algum texto conforme orientado.");
+     tagP.appendChild(texto);
+     tagMain.appendChild(tagP);
+
+     var main = document.body;
+     var tagSection2 = document.createElement('section');
+     tagSection2.className = "left-content";
+     tagMain.appendChild(tagSection2);
+
+     var main = document.body;
+     var tagSection3 = document.createElement('section');
+     tagSection3.className = "right-content";
+     tagMain.appendChild(tagSection3);
+    
+     var section = document.body;
+     var imagemSrc = document.createElement('section');
+     var imagemSrc = document.createElement("img");
+     imagemSrc.src = 'https://picsum.photos/200';
+     imagemSrc.className = "small-image";
+     tagSection2.appendChild(imagemSrc);
+
+     var section = document.body;
+     var listaNaoOrdenada = document.createElement('section');
+     var listaNaoOrdenada = document.createElement('li');
+     listaNaoOrdenada.innerHTML = 'Um';
+     tagSection3.appendChild(listaNaoOrdenada);
+     var listaNaoOrdenada = document.createElement('li');
+     listaNaoOrdenada.innerHTML = 'Dois';
+     tagSection3.appendChild(listaNaoOrdenada);
+     var listaNaoOrdenada = document.createElement('li');
+     listaNaoOrdenada.innerHTML = 'Três';
+     tagSection3.appendChild(listaNaoOrdenada);
+     var listaNaoOrdenada = document.createElement('li');
+     listaNaoOrdenada.innerHTML = 'Quatro';
+     tagSection3.appendChild(listaNaoOrdenada);
+     var listaNaoOrdenada = document.createElement('li');
+     listaNaoOrdenada.innerHTML = 'Cinco';
+     tagSection3.appendChild(listaNaoOrdenada);
+     var listaNaoOrdenada = document.createElement('li');
+     listaNaoOrdenada.innerHTML = 'Seis';
+     tagSection3.appendChild(listaNaoOrdenada);
+     var listaNaoOrdenada = document.createElement('li');
+     listaNaoOrdenada.innerHTML = 'Sete';
+     tagSection3.appendChild(listaNaoOrdenada);
+     var listaNaoOrdenada = document.createElement('li');
+     listaNaoOrdenada.innerHTML = 'Oito';
+     tagSection3.appendChild(listaNaoOrdenada);
+     var listaNaoOrdenada = document.createElement('li');
+     listaNaoOrdenada.innerHTML = 'Nove';
+     tagSection3.appendChild(listaNaoOrdenada);
+     var listaNaoOrdenada = document.createElement('li');
+     listaNaoOrdenada.innerHTML = 'Dez';
+     tagSection3.appendChild(listaNaoOrdenada);
+   
+
+     var main = document.body;
+     var tagH3um = document.createElement('h3');
+     main.appendChild(tagH3um);
+
+     var main = document.body;
+     var tagH3dois = document.createElement('h3');
+     main.appendChild(tagH3dois);
+
+     var main = document.body;
+     var tagH3tres = document.createElement('h3');
+     main.appendChild(tagH3tres);
+
+     tagH1.className = "title";
+
+     tagH3um.className = "description";
+     tagH3dois.className = "description";
+     tagH3tres.className = "description";
+
+     tagMain.removeChild(tagSection2);
+    
+     tagMain.style.backgroundColor = "green";
+
+     tagSection3.style.marginRight = "auto";
+    
+    </script>
+  </body>
+</html>
