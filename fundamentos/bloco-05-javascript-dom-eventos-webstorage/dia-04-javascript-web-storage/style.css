@@ -1,0 +1,34 @@
+h2 {
+    font-size: 50px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4 {
+    font-weight: lighter;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    text-align: left;
+    margin-top: 300px;
+}
+
+section {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botao {
+    text-align: center;
+}
