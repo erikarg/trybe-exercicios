@@ -4,11 +4,11 @@
 
 [X] Bloco 2 - Git, Github e Internet - :heavy_check_mark:
 
-[  ] Bloco 3 - Introdução à HTML e CSS
+[X] Bloco 3 - Introdução à HTML e CSS
 
-[  ] Bloco 4 - Introdução à Javascript e Lógica de Programação
+[X] Bloco 4 - Introdução à Javascript e Lógica de Programação
 
-[  ] Bloco 5 - Javascript: DOM, Eventos e Web Storage
+[X] Bloco 5 - Javascript: DOM, Eventos e Web Storage
 
 [  ] Bloco 6 - HTML e CSS: Forms, Flexbox e Responsivo
 
