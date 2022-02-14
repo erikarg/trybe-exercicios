@@ -18,6 +18,7 @@ function createDaysOfTheWeek() {
   function createDaysOfTheMonth() {
     const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
     const dezDaysListFont = document.getElementById('days');
+
     
     for (let index = 0; index < dezDaysList.length; index += 1) {
       const days1 = dezDaysList[index];
@@ -25,8 +26,16 @@ function createDaysOfTheWeek() {
       daysListItem.innerHTML = days1;
 
       dezDaysListFont.appendChild(daysListItem);
-      
+      daysListItem.classList.add('day');
     };
+    document.getElementsByClassName('day')[25].classList.add('holiday');
+    document.getElementsByClassName('day')[26].classList.add('holiday');
+    document.getElementsByClassName('day')[32].classList.add('holiday');
+    document.getElementsByClassName('day')[5].classList.add('friday');
+    document.getElementsByClassName('day')[12].classList.add('friday');
+    document.getElementsByClassName('day')[19].classList.add('friday');  
+    document.getElementsByClassName('day')[26].classList.add('friday');
+    
   };
   
   createDaysOfTheMonth();
