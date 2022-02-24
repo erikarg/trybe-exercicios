@@ -6,7 +6,7 @@ html {
     box-sizing: inherit;
   }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 350px) and (max-width: 461px) {
 
      html {
          margin: 1em;
@@ -27,10 +27,6 @@ html {
          margin-top: 10%;
      }
 
-     aside aside-one {
-         text-align: left;
-     }
-
      h1 {
          display: flex;
          font-size: 25px;
@@ -40,7 +36,9 @@ html {
      }
 
      h2 {
+        display: flex;
         font-size: 25px;
+        text-align: center;
      }
 
      h3 {
@@ -57,10 +55,76 @@ html {
      }
 }   
 
-@media screen and (min-width: 768px) {
-      
-}
+@media screen and (min-width: 462px) and (max-width: 682px) {
+    
+    html {
+        margin: 1em;
+        background-color: antiquewhite;
+    }
 
-@media screen and (min-width: 1000px) {
+    header p {
+        display: flex;
+        font-size: 45px;
+        font-weight: bold;
+        text-align: center;
+    } 
+
+    nav ul {
+        display: flex;
+        font-size: 25px;
+        justify-content: space-evenly;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+
+    ul li {
+        font-size: 18px;
+    }
+
+    ol li {
+        font-size: 18px;
+    }
+
+    aside aside-one {
+        text-align: left;
+        font-size: 18px;
+    }
+
+    aside aside-two {
+        text-align: left;
+        font-size: 18px;
+    }
+
+    h1 {
+        display: flex;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 10%;
+        padding: 5px 30%;
+    }
+
+    h2 {
+       font-size: 25px;
+       text-align: center;
+    }
+
+    h3 {
+        font-style: italic;
+        margin-top: 10%;
+    }
+
+    header {
+        border: 1px solid black;
+        background-color: rgba(0, 255, 213, 0.404);
+    }
+
+    p {
+        text-align: justify;
+        font-size: 20px;
+    }
+}
+    
+
+@media screen and (min-width: 683px) and (max-width: 100%) {
       
 }
