@@ -93,3 +93,28 @@ body {
       display: none;
     }
   }
+
+  @media screen and (min-width: 240px) and (max-width: 360px) {
+   
+    #aside {
+      visibility: hidden;
+    }
+
+    body {
+      padding: 0;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    #navigation ul li {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #header {
+      position: fixed;
+    }
+  }
