@@ -60,3 +60,32 @@ function testingScope(escopo) {
   // Exercício 3: Inserido no corpo do arquivo html.
 
   // Exercício 4:
+
+  const array = ["Android", "iOS", "Architecture", "Teach", "Run"];
+
+function buildSkillsPhrase (paramOne) {
+    const fun1 = paramInner => (
+      `Tryber ${paramInner} aqui!
+
+      Tudo bem?`
+    );
+
+    let result = `${fun1(paramOne)}
+
+    Minhas cinco principais habilidades são:`;
+
+    array.forEach((skill, index) =>
+    result = `${result}
+
+    - ${skill}`);
+
+    result = `
+{result}
+
+    #goTrybe
+    `;
+
+    return result;
+}
+
+console.log(buildSkillsPhrase("Erika")); // Créditos ao gabarito da Trybe, consultei para desenvolver e entender melhor.
