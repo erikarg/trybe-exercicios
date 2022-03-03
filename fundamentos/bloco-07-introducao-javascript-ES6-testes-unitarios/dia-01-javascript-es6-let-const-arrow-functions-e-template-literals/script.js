@@ -1,3 +1,5 @@
+  ////////////////// Exercícios de fixação - Parte I /////////////////
+
 function testingScope(escopo) {
     if (escopo === true) {
       var ifScope = 'Não devo ser utilizada fora do meu escopo (if)';
@@ -34,10 +36,27 @@ function testingScope(escopo) {
 
   console.log(oddsAndEvens); // será necessário alterar essa linha 😉
 
-  // Exercício 2 - Reescrevendo, temos:
+  // Exercício 2 - Reescrevendo o código acima, temos:
 
   let oddsAndEvens = [13, 3, 4, 10, 7, 2];
   let sortOddsAndEvens = () => (oddsAndEvens.sort((a, b) => a - b));
   let sortedArray = sortOddsAndEvens();
 
   console.log(`Os números ${sortedArray} se encontram ordenados de forma crescente!`);
+
+  ////////////////// Exercícios de fixação - Parte II /////////////////
+
+  // Excercício 1: 
+
+  const fatorial = numero => numero > 1 ? numero * fatorial(numero - 1) : 1;
+  console.log(fatorial(10));
+
+  // Exercício 2: 
+
+  const longestWord = phrase => phrase.split(' ').sort((word1, word2) => word2.length - word1.length)[0];
+
+  console.log(longestWord('Testando aqui essa singela funcao para verificar qual é a maior palavra da minha string'));
+
+  // Exercício 3: Inserido no corpo do arquivo html.
+
+  // Exercício 4:
