@@ -10,9 +10,9 @@
 
 [X] Bloco 5 - Javascript: DOM, Eventos e Web Storage - :heavy_check_mark:
 
-[  ] Bloco 6 - HTML e CSS: Forms, Flexbox e Responsivo
+[X] Bloco 6 - HTML e CSS: Forms, Flexbox e Responsivo - :heavy_check_mark:
 
-[  ] Bloco 7 - Introdução à Javascript ES6 e Testes Unitários
+[X] Bloco 7 - Introdução à Javascript ES6 e Testes Unitários - :heavy_check_mark:
 
 [  ] Bloco 8 - Higher Order Functions do Javascript ES6
 
