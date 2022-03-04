@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TrybeTrip</title>
+</head>
+<body>
+    <header>
+        <h1>TrybeTrip</h1>
+        <br>
+        <br>
+    </header>
+<form action="" method="get" enctype="multipart/form-data">
+    <label for="nome-completo">Nome Completo:
+        <input type="text" name="nome" id="nome-completo" placeholder="Digite seu nome" minlength="10" maxlength="40" required>
+    </label>
+    <br>
+    <br>
+    <label for="e-mail">E-mail:
+        <input type="email" name="e-mail" id="e-mail" placeholder="Digite seu email" minlength="10" maxlength="50"required>
+    </label>
+    <br>
+    <br>
+    <label for="cidade">Destino Preferido:
+        <br>
+        <br>
+    <input type="radio" name="destino-favorito" id="cidade">Cidade</label>
+    <label for="campo">
+    <input type="radio" name="destino-favorito" id="campo">Campo</label>
+    <label for="praia">
+    <input type="radio" name="destino-favorito" id="praia">Praia</label>
+    <label for="montanhas">
+    <input type="radio" name="destino-favorito" id="montanhas">Montanhas</label>
+</label>
+    <br>
+    <br>
+    <label for="pergunta-do-milhao">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?
+    <br>
+    <br>
+        <textarea name="pergunta-do-milhao" id="pergunta-do-milhao" cols="30" rows="10" maxlength="500" required></textarea>
+    </label>
+    <br>
+    <br>
+    <label for="data-escolhida">Qual é a melhor data para realizar sua viagem?
+        <br>
+        <br>
+        <input type="date" name="data-escolhida" id="data-escolhida" required>
+    </label>
+    <br>
+    <br>
+    <label for="oportunidades">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+        <br>
+        <br>
+        <input type="radio" name="oportunidades" id="oportunidades" required>Sim</label>
+        <label for="oportunidades2">
+        <input type="radio" name="oportunidades" id="oportunidades2" required>Não</label>
+    <br>
+    <br>
+    <label for="imagem"><input type="checkbox" name="concordo" id="imagem" required>
+    Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros
+    </label>
+    <br>
+    <br>
+    <br>
+    <button type="reset">Limpar campos</button>
+    <br>
+    <br>
+    <button id="botaoEnviar" type="submit" onclick="proibeClick()">Enviar</button>
+</form>
+<script src="script.js"></script>
+</body>
+</html>
