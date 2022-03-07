@@ -1,6 +1,6 @@
 function sum(a, b) {
   if (typeof a !== 'number' || typeof b !== 'number') {
-    throw Error('parameters must be numbers');
+    throw new Error('parameters must be numbers');
   }
 
   return a + b;
