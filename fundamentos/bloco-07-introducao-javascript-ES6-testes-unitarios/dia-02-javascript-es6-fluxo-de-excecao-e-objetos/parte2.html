@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicios parte 2</title>
+</head>
+<body>
+  <p id="texto"></p>
+  <br>
+  <p id="texto2"></p>
+  <script>
+    const order = {
+  name: 'Rafael Andrade',
+  phoneNumber: '11-98763-1416',
+  address: {
+    street: 'Rua das Flores',
+    number: '389',
+    apartment: '701',
+  },
+  order: {
+    pizza: {
+      marguerita: {
+        amount: 1,
+        price: 25,
+      },
+      pepperoni: {
+        amount: 1,
+        price: 20,
+      }
+    },
+    drinks: {
+      coke: {
+        type: 'Coca-Cola Zero',
+        price: 10,
+        amount: 1,
+      }
+    },
+    delivery: {
+      deliveryPerson: 'Ana Silveira',
+      price: 5,
+    }
+  },
+  payment: {
+    total: 60,
+  },
+};
+
+const customerInfo = (order) => {
+document.getElementById('texto').innerHTML = `Olá ${order.order.delivery.deliveryPerson}, entrega para: ${order.name}, Telefone: ${order.phoneNumber}, R.${order.address.street}, Nº${order.address.number}, AP:${order.address.apartment}.`
+}
+
+customerInfo(order);
+
+const orderModifier = (order) => {
+const change1 = order.name = 'Luiz Silva';
+const pizzas = Object.keys(order.order.pizza);
+const drinks = order.order.drinks.coke.type;
+const newValue = order.payment.value = '50';
+document.getElementById('texto2').innerHTML = `Olá ${change1}, o total do seu pedido de ${pizzas[0]}, ${pizzas[1]} e ${drinks} é R$${newValue},00.`;
+
+}
+
+orderModifier(order);
+  </script>
+</body>
+</html>
