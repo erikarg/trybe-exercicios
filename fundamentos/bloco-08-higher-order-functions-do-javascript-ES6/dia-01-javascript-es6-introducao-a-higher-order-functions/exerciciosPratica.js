@@ -14,4 +14,6 @@ const newEmployees = () => {
   }
   return employees;
 };
-console.log(newEmployees(dados));
+console.log(newEmployees(dados)); 
+
+// Agradecimentos ao Isaac Almeida por traduzir o enunciado do exercicio
