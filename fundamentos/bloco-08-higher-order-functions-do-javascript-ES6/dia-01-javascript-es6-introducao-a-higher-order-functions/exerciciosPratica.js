@@ -1,3 +1,5 @@
+// Exercício 1 
+
 const dados = (name) => { 
   const info = {
   nomeCompleto: name,
@@ -17,3 +19,13 @@ const newEmployees = () => {
 console.log(newEmployees(dados)); 
 
 // Agradecimentos ao Isaac Almeida por traduzir o enunciado do exercicio
+
+// Exercício 2
+
+const checkResult = (meuNumero, numero) => meuNumero === numero;
+
+const lotteryResult = (meuNumero, func) => {
+  const numero = Math.floor((Math.random() * 5) + 1);
+  return func(meuNumero, numero) ? 'Parabéns, você ganhou!' : 'Tente novamente!';
+};
+console.log(lotteryResult(3, checkResult));
