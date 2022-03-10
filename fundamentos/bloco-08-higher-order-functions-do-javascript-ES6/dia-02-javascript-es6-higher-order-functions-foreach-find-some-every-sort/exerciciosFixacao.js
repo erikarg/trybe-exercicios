@@ -7,7 +7,7 @@ const emailListInData = [
   'fabiano@email.com',
 ];
 
-const showEmailList = (email) => {
+const showEmailList = () => {
   console.log(`O email ${email} esta cadastrado em nosso banco de dados!`);
 };
 
