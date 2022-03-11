@@ -61,4 +61,5 @@ const books = [
   },
 ];
 
-// Adicione o código do exercício aqui:
+const filtraGenero = books.filter((book) => book.genre = 'Fantasia');
+console.log(filtraGenero);
