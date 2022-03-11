@@ -61,4 +61,6 @@ const books = [
   },
 ];
 
-// Adicione o código do exercício aqui:
+const livrosLancadosEm80s = books.every((book) => book.releaseYear >= 1980 || book.releaseYear <= 1989);
+
+console.log(livrosLancadosEm80s);

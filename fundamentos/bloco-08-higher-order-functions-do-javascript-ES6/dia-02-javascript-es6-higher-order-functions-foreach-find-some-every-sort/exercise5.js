@@ -61,12 +61,6 @@ const books = [
   },
 ];
 
-function pessoasNascidasNoSecXX(idade) {
-  const checagem = books.find((book) => book.author.birthYear);
-  if (checagem >= 1901 && checagem <= 2000) {
-    return true;
-  }
-  return false;
-};
+const pessoasNascidasNoSecXX = books.every((book) => book.author.birthYear >= 1901 || book.author.birthYear <= 2000);
 
-console.log(pessoasNascidasNoSecXX());
+console.log(pessoasNascidasNoSecXX);
