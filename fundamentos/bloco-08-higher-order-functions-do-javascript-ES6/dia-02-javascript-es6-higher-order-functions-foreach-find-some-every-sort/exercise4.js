@@ -61,4 +61,5 @@ const books = [
   },
 ];
 
-// Adicione o código do exercício aqui:
+const ordenandoLivros = books.sort(function(a, b){return b - a});
+console.log(ordenandoLivros);
