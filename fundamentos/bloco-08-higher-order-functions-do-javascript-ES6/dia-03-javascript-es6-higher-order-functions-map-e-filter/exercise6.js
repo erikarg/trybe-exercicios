@@ -61,4 +61,6 @@ const books = [
   },
 ];
 
-// Adicione o código do exercício aqui:
+const livrosAntigos = books.filter((book) => (book.releaseYear < 1962));
+const pescariaDeNomes = livrosAntigos.map((book) => book.name);
+console.log(pescariaDeNomes);
