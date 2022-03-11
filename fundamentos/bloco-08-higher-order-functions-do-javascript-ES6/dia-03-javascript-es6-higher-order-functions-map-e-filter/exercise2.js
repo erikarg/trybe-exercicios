@@ -61,4 +61,37 @@ const books = [
   },
 ];
 
-// Adicione o código do exercício aqui:
+const calculoIdade = books.map((book) => ( book.releaseYear - book.author.birthYear ));
+const ordenaIdade = calculoIdade.sort((a, b) => a - b);
+const extraiNomes = books.map((book) => book.author.name );
+
+function nomeIdade() {
+  const expectedResult = [
+    {
+    age: calculoIdade[0],
+    author: extraiNomes[0],
+    },
+    {
+    age: calculoIdade[1],
+    author: extraiNomes[1],
+    },
+    {
+    age: calculoIdade[2],
+    author: extraiNomes[2],
+    },
+    {
+    age: calculoIdade[3],
+    author: extraiNomes[3],
+    },
+    {
+    age: calculoIdade[4],
+    author: extraiNomes[4],
+    },
+    {
+    age: calculoIdade[5],
+    author: extraiNomes[5],
+    },
+  ];
+  return expectedResult;
+};
+console.log(nomeIdade());
