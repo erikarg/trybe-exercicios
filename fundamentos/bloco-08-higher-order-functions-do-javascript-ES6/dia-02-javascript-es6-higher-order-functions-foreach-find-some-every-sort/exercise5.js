@@ -61,4 +61,12 @@ const books = [
   },
 ];
 
-// Adicione o código do exercício aqui:
+function pessoasNascidasNoSecXX(idade) {
+  const checagem = books.find((book) => book.author.birthYear);
+  if (checagem >= 1901 && checagem <= 2000) {
+    return true;
+  }
+  return false;
+};
+
+console.log(pessoasNascidasNoSecXX());
