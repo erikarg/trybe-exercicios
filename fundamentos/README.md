@@ -14,6 +14,6 @@
 
 [X] Bloco 7 - Introdução à Javascript ES6 e Testes Unitários - :heavy_check_mark:
 
-[  ] Bloco 8 - Higher Order Functions do Javascript ES6
+[X] Bloco 8 - Higher Order Functions do Javascript ES6 - :heavy_check_mark:
 
 [  ] Bloco 9 - JavaScript e Testes Assíncronos
