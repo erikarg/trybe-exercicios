@@ -4,6 +4,10 @@ const names = [
   'Abeladerco', 'Adieidy', 'Alarucha',
 ];
 
-function containsA() {
-  // escreva seu código aqui
-}
+function contagem() {
+  return names.reduce((acumulador, current) => 
+  acumulador + current.split('').reduce((number1, number2) => {
+    if (number2 === 'a' || number2 === 'A') return number1 +1;
+    return number1; }, 0), 0);
+  };
+console.log(contagem());
