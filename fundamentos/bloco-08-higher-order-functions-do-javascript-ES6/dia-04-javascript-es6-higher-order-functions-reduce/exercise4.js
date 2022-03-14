@@ -61,4 +61,12 @@ const books = [
   },
 ];
 
-// Adicione o código do exercício aqui:
+function maiorNome() {
+  return books.reduce((nomeUm, nomeDois) => {
+    if (nomeUm.name.length > nomeDois.name.length) {
+      return nomeUm
+    }
+    return nomeDois
+  });
+};
+console.log(maiorNome());
