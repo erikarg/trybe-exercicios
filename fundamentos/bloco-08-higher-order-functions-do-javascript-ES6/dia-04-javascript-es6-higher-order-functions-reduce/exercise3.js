@@ -61,4 +61,6 @@ const books = [
   },
 ];
 
-// Adicione o código do exercício aqui:
+const somaIdades = books.reduce((acc, b) => acc + b.releaseYear - b.author.birthYear, '');
+const media = somaIdades / 6;
+console.log(media);
