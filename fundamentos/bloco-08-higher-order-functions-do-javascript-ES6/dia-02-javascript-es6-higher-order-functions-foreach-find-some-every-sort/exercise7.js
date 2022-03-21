@@ -61,6 +61,11 @@ const books = [
   },
 ];
 
-const primeiroAutor = books.find((book) => book.author.birthYear === 1947);
-const verdadeVerdadeira = primeiroAutor.author.name;
-console.log(verdadeVerdadeira);
+function nascidosNoMesmoAno() {
+  return books.every((book) =>
+   !books.some((bookEscolhido) =>
+   (bookEscolhido.author.birthYear === book.author.birthYear) && (bookEscolhido.author.name !== book.author.name
+   )));
+};
+
+console.log(nascidosNoMesmoAno());

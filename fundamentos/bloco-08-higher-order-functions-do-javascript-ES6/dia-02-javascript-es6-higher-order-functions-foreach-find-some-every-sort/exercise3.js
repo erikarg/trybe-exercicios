@@ -61,6 +61,5 @@ const books = [
   },
 ];
 
-const primeiroAutor = books.find((book) => book.author.birthYear === 1947);
-const verdadeVerdadeira = primeiroAutor.author.name;
-console.log(verdadeVerdadeira);
+const encontrandoLivro = books.find((book) => book.name.length === 26);
+console.log(encontrandoLivro);

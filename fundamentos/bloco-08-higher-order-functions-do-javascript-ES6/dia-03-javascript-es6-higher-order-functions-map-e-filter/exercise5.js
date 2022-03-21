@@ -61,6 +61,9 @@ const books = [
   },
 ];
 
-const primeiroAutor = books.find((book) => book.author.birthYear === 1947);
-const verdadeVerdadeira = primeiroAutor.author.name;
-console.log(verdadeVerdadeira);
+function filtraGeneros() {
+  return books.filter((book) => (
+    book.genre === 'Fantasia' || book.genre === 'Ficção Científica'
+    ));
+};
+console.log(filtraGeneros());

@@ -61,6 +61,5 @@ const books = [
   },
 ];
 
-const primeiroAutor = books.find((book) => book.author.birthYear === 1947);
-const verdadeVerdadeira = primeiroAutor.author.name;
-console.log(verdadeVerdadeira);
+const ordenandoLivros = books.sort(function(a, b){return b - a});
+console.log(ordenandoLivros);

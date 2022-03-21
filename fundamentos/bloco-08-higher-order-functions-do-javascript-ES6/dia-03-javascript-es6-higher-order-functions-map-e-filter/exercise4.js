@@ -61,6 +61,9 @@ const books = [
   },
 ];
 
-const primeiroAutor = books.find((book) => book.author.birthYear === 1947);
-const verdadeVerdadeira = primeiroAutor.author.name;
-console.log(verdadeVerdadeira);
+const filtraLivros = books.filter((book) => (book.releaseYear < 1962));
+const ordenarLivros = filtraLivros.sort(function (a, b) {
+  return a.releaseYear - b.releaseYear;
+});
+
+console.log(filtraLivros);

@@ -61,6 +61,6 @@ const books = [
   },
 ];
 
-const primeiroAutor = books.find((book) => book.author.birthYear === 1947);
-const verdadeVerdadeira = primeiroAutor.author.name;
-console.log(verdadeVerdadeira);
+const pessoasNascidasNoSecXX = books.every((book) => book.author.birthYear >= 1901 || book.author.birthYear <= 2000);
+
+console.log(pessoasNascidasNoSecXX);

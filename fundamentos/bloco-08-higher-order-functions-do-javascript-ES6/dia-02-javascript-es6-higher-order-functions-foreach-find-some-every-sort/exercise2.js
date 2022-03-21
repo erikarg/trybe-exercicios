@@ -61,6 +61,16 @@ const books = [
   },
 ];
 
-const primeiroAutor = books.find((book) => book.author.birthYear === 1947);
-const verdadeVerdadeira = primeiroAutor.author.name;
-console.log(verdadeVerdadeira);
+function menorNome() {
+  let menorTamanho;
+
+  books.forEach((book) => {
+    if (!menorTamanho || book.name.length < menorTamanho.length) {
+      menorTamanho = book.name;
+    }
+  });
+  return menorTamanho;
+};
+
+console.log(menorNome());
+// Retorne o nome do livro de menor nome.

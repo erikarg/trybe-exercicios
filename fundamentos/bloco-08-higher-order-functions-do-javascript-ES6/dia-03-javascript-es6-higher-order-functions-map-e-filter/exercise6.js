@@ -61,6 +61,6 @@ const books = [
   },
 ];
 
-const primeiroAutor = books.find((book) => book.author.birthYear === 1947);
-const verdadeVerdadeira = primeiroAutor.author.name;
-console.log(verdadeVerdadeira);
+const livrosAntigos = books.filter((book) => (book.releaseYear < 1962));
+const pescariaDeNomes = livrosAntigos.map((book) => book.name);
+console.log(pescariaDeNomes);
