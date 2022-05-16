@@ -16,4 +16,4 @@
 
 [X] Bloco 8 - Higher Order Functions do Javascript ES6 - :heavy_check_mark:
 
-[  ] Bloco 9 - JavaScript e Testes Assíncronos
+[X] Bloco 9 - JavaScript e Testes Assíncronos - :heavy_check_mark:
