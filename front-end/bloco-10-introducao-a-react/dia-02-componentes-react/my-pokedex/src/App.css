@@ -1,0 +1,38 @@
+html {
+  text-align: center;
+  background-image: url('./wallpaper.jpg');
+  background-size: cover;
+}
+
+.pokemon {
+  border: 2px solid rgb(3, 3, 134);
+  border-radius: 30px;
+  width: 250px;
+  height: 300px;
+  display: inline;
+  padding: 5px;
+}
+
+.pokedex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.images {
+  width: 160px;
+}
+
+.logo {
+  height: 150px;
+  width: 400px;
+  padding: 20px;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 20px;
+}
+
+p {
+  padding: 3px;
+}
